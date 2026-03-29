@@ -1,0 +1,103 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Madina Alvi</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html" aria-label="Go to Home">
+                <span class="brand-mark" aria-hidden="true">●</span>
+                <span class="brand-name">Madina Alvi</span>
+            </a>
+
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+                <span class="sr-only">Open menu</span>
+                <span class="hamburger" aria-hidden="true"></span>
+            </button>
+
+            <nav id="site-nav" class="site-nav" aria-label="Primary">
+                <ul class="nav-list">
+                    <li><a class="nav-link" href="index.html">Home</a></li>
+                    <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="nav-link" href="about.html">About</a></li>
+                    <li><a class="nav-link nav-link--button" href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="contact-hero">
+            <div class="container">
+                <div class="contact-card">
+                    <h1 class="page-title">Let’s Connect</h1>
+                    <p class="page-intro">
+                        I’d love to hear from you. Feel free to send a message for questions,
+                        collaborations, or creative opportunities.
+                    </p>
+
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button class="btn btn-primary" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-extra">
+            <div class="container">
+                <div class="extra-card">
+                    <div class="extra-image" aria-hidden="true"></div>
+
+                    <div class="extra-content">
+                        <h2>Other Ways to Reach Me</h2>
+                        <p>
+                            You can also connect with me through my social platforms.
+                        </p>
+
+                        <ul class="social social-contact">
+                            <li><a class="social-link" href="#" aria-label="Instagram">IG</a></li>
+                            <li><a class="social-link" href="#" aria-label="Behance">Be</a></li>
+                            <li><a class="social-link" href="#" aria-label="GitHub">GH</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="footer-copy">© <span id="year"></span> Madina Alvi. All rights reserved.</p>
+
+            <ul class="social">
+                <li><a class="social-link" href="#" aria-label="Instagram">IG</a></li>
+                <li><a class="social-link" href="#" aria-label="Behance">Be</a></li>
+                <li><a class="social-link" href="#" aria-label="GitHub">GH</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
